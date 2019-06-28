@@ -384,7 +384,7 @@ footer p {
   text-align: center;
   color: white;
   font-size: 1.6rem;
-  padding: 20px;
+  padding: 10px;
 }
 
 .foot{
@@ -393,16 +393,6 @@ footer p {
   margin: 0 20px;
 }
 
-.zoom {
-  padding: 50px;
-  transition: transform .2s;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
-
-.zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.2); 
+.footer22{
+  padding: -20px;
 }

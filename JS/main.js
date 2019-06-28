@@ -22,7 +22,7 @@ function changeImg(){
 window.onload = changeImg;
 
 // nav hover link color
-let element = document.querySelectorAll('nav a');
+let element = document.querySelectorAll('a');
 
 let arr = Array.from(element);
 
@@ -31,4 +31,22 @@ arr.forEach((link) => {link.addEventListener("mouseover", function(){
     this.style.color = "#6C5359"; setTimeout( () => {this.style.color ="";}, 500);}, false)
 });
 
+
+
+//working links 
+document.getElementById('svg4').onclick = function () {
+    window.open("https://www.paypal.com");
+}
+
+document.getElementById('svg1').onclick = function() {
+    window.alert("My academic needs have been coordinated.  Thank you Educell");
+}
+
+document.getElementById('svg3').onclick = function () {
+    window.alert("Imagine the lists you can create to bring your kids the resources they need, when they need them.")
+}
+
+document.getElementById('svg2').onclick = function () { 
+    window.alert("Filter through help tickets to manage your priorities");
+}
 
