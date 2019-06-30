@@ -50,3 +50,11 @@ document.getElementById('svg2').onclick = function () {
     window.alert("Filter through help tickets to manage your priorities");
 }
 
+document.getElementById('svg5').onclick = function () {
+    window.alert("Hello there");
+}
+
+document.getElementById('svg6').onclick = function () {
+    window.alert("Hello there");
+}
+
