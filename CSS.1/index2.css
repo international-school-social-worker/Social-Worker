@@ -221,13 +221,12 @@ body {
 #banner {
   display: flex;
   justify-content: center;
-  margin-top: 45px;
   width: 100%;
   text-align: center;
   background: #A0001E;
   color: black;
+  padding: 30px;
   height: 500px;
-  padding: 25px;
   z-index: 100000;
   background-image: url(/IMAGES/aeriel\ .jpg);
 }
@@ -277,6 +276,8 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  background-image: url(/IMAGES/aeriel\ .jpg);
+  
 }
 #main-content p img {
   width: 10%;

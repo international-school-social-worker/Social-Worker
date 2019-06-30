@@ -43,7 +43,7 @@ document.getElementById('svg1').onclick = function() {
 }
 
 
-document.getElementById('svg3').onclick = function () {
+document.getElementById('svg5').onclick = function () {
     window.alert("Imagine the lists you can create to bring your kids the resources they need, when they need them.")
 }
 
