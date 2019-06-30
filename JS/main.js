@@ -42,6 +42,7 @@ document.getElementById('svg1').onclick = function() {
     window.alert("My academic needs have been coordinated.  Thank you Educell");
 }
 
+
 document.getElementById('svg3').onclick = function () {
     window.alert("Imagine the lists you can create to bring your kids the resources they need, when they need them.")
 }
@@ -51,10 +52,10 @@ document.getElementById('svg2').onclick = function () {
 }
 
 document.getElementById('svg5').onclick = function () {
-    window.alert("Hello there");
+    window.alert("Login");
 }
 
 document.getElementById('svg6').onclick = function () {
-    window.alert("Hello there");
+    window.alert("Login");
 }
 
